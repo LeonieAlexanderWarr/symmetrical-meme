@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-#this incomesupport worker is incomepissing me off
+#this code is copissingmeoff
 def calculate_cumulative_effort(role_name, total_applicants, hires, app_time_mins, interview_stages, target_probability=0.80):
     p_hire = hires / total_applicants
     n_apps = math.ceil(math.log(1 - target_probability) / math.log(1 - p_hire))
